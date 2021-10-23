@@ -12,13 +12,13 @@ const Home: NextPage = () => {
           />
           <h1 className="text-3xl font-bold m-3">{process.env.NEXT_PUBLIC_APP_NAME}</h1>
           <div>
-            <a href={process.env.APP_STORE_LINK}>
+            <a href={process.env.NEXT_PUBLIC_PLAY_STORE_LINK}>
               <img
                 src="/img/playstore.png"
                 className="mx-auto my-3 bg-black rounded p-3"
               />
             </a>
-            <a href={process.env.PLAY_STORE_LINK}>
+            <a href={process.env.NEXT_PUBLIC_APP_STORE_LINK}>
               <img
                 src="/img/appstore.png"
                 className="mx-auto my-3 bg-black rounded p-3"
